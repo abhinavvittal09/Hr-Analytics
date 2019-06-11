@@ -5,32 +5,33 @@ To Create a machine learning model to help te hr to find the potential employee 
 # Data Dictionary
 
 
-Variable	             Definition
+Variable	                                        Definition
 
-employee_id	           Unique ID for employee
 
-department	           Department of employee
+employee_id	                                      Unique ID for employee
 
-region	               Region of employment (unordered)
+department	                                      Department of employee
 
-education	             Education Level
+region	                                          Region of employment (unordered)
 
-gender	               Gender of Employee
+education	                                        Education Level
 
-recruitment_channel	   Channel of recruitment for employee
+gender	                                          Gender of Employee
 
-no_of_trainings	       no of other trainings completed in previous year on soft skills, technical skills etc.
+recruitment_channel	                              Channel of recruitment for employee
 
-age	                   Age of Employee
+no_of_trainings	                                  no of other trainings completed in previous year on soft skills, technical skills etc.
 
-previous_year_rating	 Employee Rating for the previous year
+age	                                              Age of Employee
 
-length_of_service	     Length of service in years
+previous_year_rating	                            Employee Rating for the previous year
 
-KPIs_met >80%	         if Percent of KPIs(Key performance Indicators) >80% then 1 else 0
+length_of_service	                                Length of service in years
 
-awards_won?	           if awards won during previous year then 1 else 0
+KPIs_met >80%	                                    if Percent of KPIs(Key performance Indicators) >80% then 1 else 0
 
-avg_training_score	   Average score in current training evaluations
+awards_won?	                                      if awards won during previous year then 1 else 0
 
-is_promoted	(Target)   Recommended for promotion
+avg_training_score	                              Average score in current training evaluations
+
+is_promoted	(Target)                              Recommended for promotion
